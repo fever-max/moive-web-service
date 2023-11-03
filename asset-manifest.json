@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/moive-web-service/static/js/main.822e6a64.js",
+    "index.html": "/moive-web-service/index.html",
+    "main.822e6a64.js.map": "/moive-web-service/static/js/main.822e6a64.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.822e6a64.js"
+  ]
+}
