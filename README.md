@@ -1,4 +1,4 @@
-# 영화 웹 서비스
+# ReactJS 영화 웹 서비스
 
 https://fever-max.github.io/moive-web-service/
 
