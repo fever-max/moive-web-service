@@ -1,12 +1,19 @@
-import Button from "./Button";
-import style from "./App.module.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./routes/Home";
+import Detail from "./routes/Detail";
 
 function App() {
   return (
-    <div>
-      <h1 className={style.title}>TEST</h1>
-      <Button text={"OK"} />
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/movie/:id">
+          <Detail />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

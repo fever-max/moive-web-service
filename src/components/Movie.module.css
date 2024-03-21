@@ -1,0 +1,71 @@
+.movie {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.movie:hover {
+  transform: scale(1.05);
+}
+
+.movie__img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie__title {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.movie__year {
+  font-size: 1rem;
+  margin-top: -15px;
+}
+
+.movie__genres {
+  color: black;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.movie__genres li {
+  margin: 0 5px;
+  font-size: 1rem;
+  background-color: #eff3f7;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.movie__additional-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  display: none;
+}
+
+.movie:hover .movie__additional-info {
+  display: block;
+}
+
+.movie__summary {
+  color: #949393;
+}
